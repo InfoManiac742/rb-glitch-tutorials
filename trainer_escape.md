@@ -57,3 +57,6 @@ This method is much simpler than the long-range trainer method, but it is luck-d
 As you black out, the trainer engaged music will play, and the <img src=exclamation.png> icon will appear for a split second.
 
 <img src=death_warp.gif>
+
+## Part 2: Explanation
+For exactly one frame after they appear on-screen, trainers are incapable of detecting a player. This lets us perform an action (in this case, opening the menu) during that one frame. By holding down the Start button while the character is moving, we can buffer our Start input so that the menu pops up on the first possible frame. Because the game is essentially "paused" in the Start menu, the trainer will not catch us until we close the Start menu. By escaping the trainer (suc
