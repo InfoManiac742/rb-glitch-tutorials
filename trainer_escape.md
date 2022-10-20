@@ -32,4 +32,5 @@ This is also not a long-range trainer because even though his line of sight exte
 2. Press the direction on the D-pad to move into the trainers line of sight while simultaneously scrolling them on-screen.
 3. Once you start walking to the next tile, **hold** (do not tap) the Start button. (You have 17 frames to make this input, or around 0.28 seconds.)
 
-If you did everything correctly, the Start menu should pop up while in the trainer's line of sight like so:
+If you did everything correctly, the Start menu should pop up while in the trainer's line of sight like so:  
+<img src=trainer_fly_1.gif>
