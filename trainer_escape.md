@@ -17,3 +17,4 @@ A long-range trainer is a trainer such that it's possible for the player to ente
 
 Here are some examples of long-range trainers:  
 <img src=long_range_trainer_1.gif>
+<img src=long_range_trainer_2.gif>
