@@ -14,4 +14,4 @@ Requirements:
 2. Fly, Teleport, Dig, or an Escape Rope (depending on the area the long-range trainer is in)
 
 A long-range trainer is a trainer such that it's possible for the player to enter the trainer's line of sight immediately after scrolling it on screen. This is easier to understand with some examples:
-<img src="https://raw.githubusercontent.com/InfoManiac742/rb-glitch-tutorials/main/.github/images/long_range_trainer_1.gif">
+long_range_trainer_1.gif
