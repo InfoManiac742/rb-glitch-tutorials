@@ -22,7 +22,7 @@ Here are some examples of long-range trainers:
 <img src=long_range_trainer_4.gif>
 
 This is not a long-range trainer because her line of sight is only three tiles long instead of four:
-<img src=no_long_range_trainer_1.gif>
+<img src=not_long_range_trainer_1.gif>
 
 This is also not a long-range trainer because even though his line of sight extends to the edge of the screen, the cliff face prevents us from scrolling him onscreen at the same time he catches us:
-<img src=no_long_range_trainer_2.gif>
+<img src=not_long_range_trainer_2.gif>
