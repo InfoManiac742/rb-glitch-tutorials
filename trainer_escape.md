@@ -34,3 +34,5 @@ This is also not a long-range trainer because even though his line of sight exte
 
 If you did everything correctly, the Start menu should pop up while in the trainer's line of sight like so:  
 <img src=trainer_fly_1.gif>
+
+4. Use Fly/Teleport/Dig/an Escape Rope.
