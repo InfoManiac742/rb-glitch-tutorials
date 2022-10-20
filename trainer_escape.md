@@ -55,3 +55,5 @@ This method is much simpler than the long-range trainer method, but it is luck-d
 3. Once a wild Pokémon has been encountered, lose the battle and black out.
 
 As you black out, the trainer engaged music will play, and the <img src=exclamation.png> icon will appear for a split second.
+
+<img src=death_warp.gif>
