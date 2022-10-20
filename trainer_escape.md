@@ -10,7 +10,7 @@ There are two ways to initiate the trainer escape glitch: with a long-range trai
 
 ### Method 1: Long-Range Trainer
 #### Requirements
-1. An undefeated long-range trainer (more about what this means later)
+1. An undefeated long-range trainer
 2. Fly, Teleport, Dig, or an Escape Rope (depending on the area the long-range trainer is in)
 
 A long-range trainer is a trainer such that it's possible for the player to enter the trainer's line of sight immediately after scrolling them on-screen.
