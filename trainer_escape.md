@@ -5,7 +5,7 @@ This tutorial explains the process of setting up the trainer escape glitch (also
 ## Overview
 The trainer escape glitch allows the player to interrupt the process of being spotted by a player. After battling another trainer to fix some side effects, returning to the map where the glitch was initiated will allow the player to battle a Pokémon with the index number matching the special stat of the last Pokémon fought.
 
-## Setting up the glitch
+## Part 1: Setting up the glitch
 There are two ways to initiate the trainer escape glitch: with a long-range trainer or with a death warp. We will examine each of these in turn.
 
 ### Method 1: Long-Range Trainer
@@ -41,3 +41,10 @@ The trainer will then spot you, causing the <img src=exclamation.png> icon to ap
 
 Here is an example of the process in full:  
 <img src=trainer_fly_2.gif>
+
+### Method 2: Death Warp
+#### Requirements
+1. A trainer in front of a tile where wild Pokémon can be encountered
+2. Patience and/or luck
+
+This method is much simpler than the long-range trainer method, but it is less versatile and luck-dependent.
