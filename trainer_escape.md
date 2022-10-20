@@ -39,5 +39,5 @@ If you did everything correctly, the Start menu should pop up while in the train
 
 The trainer will then spot you, causing the <img src=exclamation.png> icon to appear, but you will escape before they walk over to you and start the battle.
 
-Here is an example of the process in full:
+Here is an example of the process in full:  
 <img src=trainer_fly_2.gif>
