@@ -44,7 +44,14 @@ Here is an example of the process in full:
 
 ### Method 2: Death Warp
 #### Requirements
-1. A trainer in front of a tile where wild Pokémon can be encountered
+1. An undefeated trainer in front of a tile where wild Pokémon can be encountered
 2. Patience and/or luck
 
-This method is much simpler than the long-range trainer method, but it is less versatile and luck-dependent.
+This method is much simpler than the long-range trainer method, but it is luck-dependent.
+
+#### Execution
+1. Save next to the trainer.
+2. Step into the trainer's line of sight and hope for a wild encounter. If there is no encounter, reset the game and try again.
+3. Once a wild Pokémon has been encountered, lose the battle and black out.
+
+As you black out, the trainer engaged music will play, and the <img src=exclamation.png> icon will appear for a split second.
