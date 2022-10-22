@@ -66,3 +66,6 @@ We've just successfully caused the game to start the process of beginning of a t
 
 Luckily, there's a simple way to kill two Pidgeys with one Geodude: having another trainer spot us will not only fix Problem 1, but the act of the trainer walking up to us will also fix Problem 2. There's one very important catch though: **the trainer must walk up to you**. Otherwise, the game will softlock.
 
+<img src=trainer2_good.png>|<img src=trainer2_bad1.png> <img src=trainer2_bad2.png>
+:---:|:---:
+Good|Softlocks
