@@ -58,6 +58,11 @@ As you black out, the trainer engaged music will play, and the <img src=exclamat
 
 <img src=death_warp.gif>
 
-## Part 2: Explanation
-(TODO: this is unnecessarily wordy, simplify this to one or two sentences and combine with the next part)
-For exactly one frame after they appear on-screen, trainers are incapable of detecting a player. This lets us perform an action (in this case, opening the menu) during that one frame. By holding down the Start button while the character is moving, we can buffer our Start input so that the menu pops up on the first possible frame. Because the game is essentially "paused" in the Start menu, the trainer will not catch us until we close the Start menu. When we escape the trainer (such as by flying away), the game unpauses itself, and the trainer catches us and begins the process of moving towards us. However, we immediately cancel this when the map is unloaded, but the game still remembers that there is supposed to be a trainer battle 
+## Part 2: Fixing the Side Effects
+We've just successfully caused the game to start the process of beginning of a trainer battle. This means that we've essentially "stored" a trainer battle on the map where we set up the glitch, and can use this to manipulate a glitched battle when we next return to that map. However, there are two roadblocks that we need to clear first:
+
+1. The Start menu and most textboxes are disabled. (This only applies if you used the long-range trainer method.)
+2. Since the game started (but never finished) the process of having the trainer walk toward the player, the game still thinks that an NPC is being moved. Because of this, if we returned to the map where we initiated the glitch right now, no battle would occur. (Note that if you used the death warp method to encounter a Pokémon immediately in front of the trainer, then this doesn't apply, since the trainer never had to start moving in the first place.)
+
+Luckily, there's a simple way to kill two Pidgeys with one Geodude: having another trainer spot us will not only fix Problem 1, but the act of the trainer walking up to us will also fix Problem 2. There's one very important catch though: **the trainer must walk up to you**. Otherwise, the game will softlock.
+
