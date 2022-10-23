@@ -58,7 +58,7 @@ As you black out, the trainer engaged music will play, and the <img src=exclamat
 
 <img src=death_warp.gif>
 
-## Part 2: Fixing the Side Effects
+## Part 2: Fixing the side effects
 We've just successfully caused the game to start the process of beginning of a trainer battle. This means that we've essentially "stored" a trainer battle on the map where we set up the glitch, and can use this to manipulate a glitched battle when we next return to that map. However, there are two roadblocks that we need to clear first:
 
 1. The Start menu and most textboxes are disabled. (This only applies if you used the long-range trainer method.)
@@ -70,4 +70,15 @@ Luckily, there's a simple way to kill two Pidgeys with one Geodude: having anoth
 :---:|:---:
 Good|Softlocks
 
-It is highly recommended that you lose to this trainer: not only will this let you battle this trainer again, but it will also prevent the trainer that you initialized the glitch on from being defeated as well (TODO: verify this).
+It is highly recommended that you lose to this trainer, as this will allow you to battle them again for future trainer escape glitches. Additionally, by choosing this second trainer carefully, you can combine this with Step 3 of the glitch, setting up the special stat (more on that later).
+
+### Alternative method (trainerless)
+If you don't have any other trainers left to walk up to you, don't worry, there's another way to fix these side effects. First, in order to re-enable textboxes, head to a Pokémon Center and use the PC. (Unlike most textboxes, PCs are not disabled.) Go to Bill's PC and change boxes, which lets you save the game. Now you can reset the game (this can be done by holding A+B+Start+Select) and load your save, which will re-enable textboxes.
+
+For the second step, you need to trigger a scripted NPC movement. You have several options:
+1. Having the NPC outside the Pewter mart lead you to the museum
+2. Pushing a boulder with strength
+3. Defeating the champion (Professor Oak walks during the post-battle cutscene)
+
+## Part 3: Setting up the special stat
+At this point, returning to the map where you set up the glitch will trigger an encounter. Which Pokémon you encounter is determined by the special stat of the last Pokémon that you fought.
