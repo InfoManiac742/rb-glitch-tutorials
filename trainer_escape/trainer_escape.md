@@ -16,16 +16,16 @@ There are two ways to initiate the trainer escape glitch: with a long-range trai
 A long-range trainer is a trainer such that it's possible for the player to enter the trainer's line of sight immediately after scrolling them on-screen.
 
 Here are some examples of long-range trainers:  
-<img src=long_range_trainer_1.gif>
-<img src=long_range_trainer_2.gif>
-<img src=long_range_trainer_3.gif>
-<img src=long_range_trainer_4.gif>
+<img src=img/long_range_trainer_1.gif>
+<img src=img/long_range_trainer_2.gif>
+<img src=img/long_range_trainer_3.gif>
+<img src=img/long_range_trainer_4.gif>
 
 This is not a long-range trainer because her line of sight is only three tiles long instead of four:  
-<img src=not_long_range_trainer_1.gif>
+<img src=img/not_long_range_trainer_1.gif>
 
 This is also not a long-range trainer because even though his line of sight extends to the edge of the screen, the cliff face prevents us from scrolling him on-screen at the same time he catches us:  
-<img src=not_long_range_trainer_2.gif>
+<img src=img/not_long_range_trainer_2.gif>
 
 #### Execution
 1. Position yourself so that the trainer is just off-screen.
@@ -33,14 +33,14 @@ This is also not a long-range trainer because even though his line of sight exte
 3. Once you start walking to the next tile, **hold** (do not tap) the Start button. (You have 17 frames to make this input, or around 0.28 seconds.)
 
 If you did everything correctly, the Start menu should pop up while in the trainer's line of sight without them spotting:  
-<img src=trainer_fly_1.gif>
+<img src=img/trainer_fly_1.gif>
 
 4. Use Fly/Teleport/Dig/an Escape Rope.
 
-The trainer will then spot you, causing the <img src=exclamation.png> icon to appear, but you will escape before they walk over to you and start the battle.
+The trainer will then spot you, causing the <img src=img/exclamation.png> icon to appear, but you will escape before they walk over to you and start the battle.
 
 Here is an example of the process in full:  
-<img src=trainer_fly_2.gif>
+<img src=img/trainer_fly_2.gif>
 
 ### Method 2: Death Warp
 #### Requirements
@@ -54,9 +54,9 @@ This method is much simpler than the long-range trainer method, but it is luck-d
 2. Step into the trainer's line of sight and hope for a wild encounter. If there is no encounter, reset the game and try again.
 3. Once a wild Pokémon has been encountered, lose the battle and black out.
 
-As you black out, the trainer engaged music will play, and the <img src=exclamation.png> icon will appear for a split second.
+As you black out, the trainer engaged music will play, and the <img src=img/exclamation.png> icon will appear for a split second.
 
-<img src=death_warp.gif>
+<img src=img/death_warp.gif>
 
 ## Part 2: Fixing the side effects
 We've just successfully caused the game to start the process of beginning of a trainer battle. This means that we've essentially "stored" a trainer battle on the map where we set up the glitch, and can use this to manipulate a glitched battle when we next return to that map. However, there are two roadblocks that we need to clear first:
@@ -66,7 +66,7 @@ We've just successfully caused the game to start the process of beginning of a t
 
 Luckily, there's a simple way to kill two Pidgeys with one Geodude: having another trainer spot us will not only fix Problem 1, but the act of the trainer walking up to us will also fix Problem 2. There's one very important catch though: **the trainer must walk up to you**. Otherwise, the game will softlock.
 
-<img src=trainer2_good.png>|<img src=trainer2_bad1.png> <img src=trainer2_bad2.png>
+<img src=img/trainer2_good.png>|<img src=img/trainer2_bad1.png> <img src=img/trainer2_bad2.png>
 :---:|:---:
 Good|Softlocks
 
