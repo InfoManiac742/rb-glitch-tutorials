@@ -69,3 +69,5 @@ Luckily, there's a simple way to kill two Pidgeys with one Geodude: having anoth
 <img src=trainer2_good.png>|<img src=trainer2_bad1.png> <img src=trainer2_bad2.png>
 :---:|:---:
 Good|Softlocks
+
+It is highly recommended that you lose to this trainer: not only will this let you battle this trainer again, but it will also prevent the trainer that you initialized the glitch on from being defeated as well (TODO: verify this).
